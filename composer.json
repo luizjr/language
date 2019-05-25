@@ -1,0 +1,37 @@
+{
+    "name": "luizjr/language",
+    "description": "Language switcher package for Laravel.",
+    "keywords": ["laravel", "language", "switcher"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luiz Jr",
+            "email": "lj@luizjr.dev",
+            "homepage": "https://luizjr.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": ">=5.4.0",
+        "consoletvs/identify": "1.*"
+    },
+	"autoload": {
+		"psr-4": {
+			"LuizJr\\Language\\": "./src"
+		},
+        "files": [
+            "src/helpers.php"
+        ]
+	},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LuizJr\\Language\\Provider"
+            ],
+            "aliases": {
+                "Language": "LuizJr\\Language\\Facade"
+            }
+        }
+    }
+}
