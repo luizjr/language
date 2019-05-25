@@ -2,8 +2,7 @@
 
 [![Version](https://poser.pugx.org/LuizJr/language/v/stable.svg)](https://github.com/LuizJr/language/releases)
 [![Downloads](https://poser.pugx.org/LuizJr/language/d/total.svg)](https://github.com/LuizJr/language)
-[![StyleCI](https://styleci.io/repos/102290249/shield?style=flat&branch=master)](https://styleci.io/repos/102290249)
-[![Quality](https://scrutinizer-ci.com/g/LuizJr/language/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LuizJr/language)
+[![StyleCI](https://styleci.io/repos/188588395/shield?style=flat&branch=master)](https://github.styleci.io/repos/188588395)
 [![License](https://poser.pugx.org/LuizJr/language/license.svg)](LICENSE.md)
 
 This package allows switching locale easily on Laravel projects. It's so simple to use, once it's installed, your App locale will change only by passing routes into SetLanguage middleware.
@@ -184,7 +183,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security related issues, please email security@LuizJr.com instead of using the issue tracker.
+If you discover any security related issues, please email lj@luizjr.dev instead of using the issue tracker.
 
 ## Credits
 
