@@ -1,7 +1,11 @@
 {
     "name": "luizjr/language",
     "description": "Language switcher package for Laravel.",
-    "keywords": ["laravel", "language", "switcher"],
+    "keywords": [
+        "laravel",
+        "language",
+        "switcher"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -17,13 +21,13 @@
         "consoletvs/identify": "1.*"
     },
 	"autoload": {
-		"psr-4": {
-			"LuizJr\\Language\\": "./src"
-		},
+        "psr-4": {
+            "LuizJr\\Language\\": "./src"
+        },
         "files": [
             "src/helpers.php"
         ]
-	},
+    },
     "extra": {
         "laravel": {
             "providers": [
