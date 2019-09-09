@@ -3,7 +3,7 @@
 namespace LuizJr\Language\Middleware;
 
 use Closure;
-use Unicodeveloper\Identify\Facades\IdentityFacade as Identify;
+use LuizJr\Identify\Facades\IdentityFacade as Identify;
 
 class SetLocale
 {

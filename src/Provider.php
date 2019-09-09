@@ -4,7 +4,7 @@ namespace LuizJr\Language;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Unicodeveloper\Identify\IdentifyServiceProvider;
+use LuizJr\Identify\IdentifyServiceProvider;
 
 class Provider extends ServiceProvider
 {
