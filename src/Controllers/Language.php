@@ -73,6 +73,10 @@ class Language extends Controller
             $session->setPreviousUrl($url);
         }
 
-        return redirect($session->previousUrl());
+        return redirect(
+            $session->previousUrl()
+            ? $session->previousUrl()
+            : (config('language.url') ? url('/' . $locale) : url('/'))
+        );
     }
 }
